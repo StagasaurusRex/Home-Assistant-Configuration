@@ -1,6 +1,7 @@
 name: Home
 latitude: !secret latitude
 longitude: !secret longitude
+elevation: 288
 temperature_unit: F
 time_zone: !secret time_zone
 customize: !include customize.yaml

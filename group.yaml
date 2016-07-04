@@ -6,12 +6,13 @@
 ## Views ##
 ###########
 
-default_view:
+Controls:
   view: yes
   entities:
     - group.living_room_lights
     - group.living_room_scenes
     - group.all_mobile_devices
+    - group.booleans
 
 Data:
   view: yes
@@ -93,3 +94,6 @@ Living Room Scenes:
 media_players:
   - media_player.master_bedroom_tv
   - media_player.roku_1gn399033913
+
+booleans:
+  - input_boolean.movie_mode

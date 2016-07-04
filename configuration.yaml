@@ -14,6 +14,7 @@ frontend:
 sun:
 history:
 group: !include group.yaml
+input_boolean: !include input_boolean.yaml
 automation: !include_dir_list automation
 script: !include_dir_list scripts
 scene: !include_dir_list scenes
