@@ -1,0 +1,4 @@
+movie_mode:
+  name: Movie Mode
+  initial: off
+  icon: mdi:filmstrip
