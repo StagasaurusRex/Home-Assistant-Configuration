@@ -1,6 +1,6 @@
 - platform: samsungtv
   host: 10.0.1.61
   name: Master Bedroom TV
-- platform: plex
+#- platform: plex
 - platform: roku
   host: 10.0.1.60
