@@ -2,3 +2,7 @@ movie_mode:
   name: Movie Mode
   initial: off
   icon: mdi:filmstrip
+vacation:
+  name: Vacation
+  initial: off
+  icon: mdi:airplane-takeoff
