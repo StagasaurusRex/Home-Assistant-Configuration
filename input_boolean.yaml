@@ -1,5 +1,5 @@
 movie_mode:
-  name: Movie Mode
+  name: Movie
   initial: off
   icon: mdi:filmstrip
 vacation:
