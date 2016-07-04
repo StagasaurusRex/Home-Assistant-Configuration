@@ -6,7 +6,7 @@
 ## Views ##
 ###########
 
-default_view:
+Controls:
   view: yes
   entities:
     - group.living_room_lights
