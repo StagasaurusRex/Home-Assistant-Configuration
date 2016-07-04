@@ -12,7 +12,7 @@ Controls:
     - group.living_room_lights
     - group.living_room_scenes
     - group.all_mobile_devices
-    - group.booleans
+    - group.modes
 
 Data:
   view: yes
@@ -95,5 +95,6 @@ media_players:
   - media_player.master_bedroom_tv
   - media_player.roku_1gn399033913
 
-booleans:
+modes:
   - input_boolean.movie_mode
+  - input_boolean.vacation
