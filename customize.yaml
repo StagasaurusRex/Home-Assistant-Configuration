@@ -2,27 +2,6 @@
 ## Customize.yaml ##
 ####################
 
-sensor.weather_daily_summary:
-  hidden: true
-sensor.weather_dew_point:
-  hidden: true
-sensor.weather_hourly_summary:
-  hidden: true
-sensor.weather_icon:
-  hidden: true
-sensor.weather_minutely_summary:
-  hidden: true
-sensor.weather_nearest_storm_bearing:
-  hidden: true
-sensor.weather_nearest_storm_distance:
-  hidden: true
-sensor.weather_ozone:
-  hidden: true
-sensor.weather_pressure:
-  hidden: true
-sensor.weather_wind_bearing:
-  hidden: true
-
 sensor.time:
   hidden: true
 
