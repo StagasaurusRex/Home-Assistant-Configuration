@@ -1,0 +1,9 @@
+alias: 'Pushbullet notifications when CPU temp gets above 80 degrees C/ 176 degrees F'
+trigger: 
+  platform: numeric_state
+  entity_id: sensor.cpu_temperature
+  above: 176
+action:
+  service: notify.notify
+  data:
+    message: "Cpu temperature is {{ states('sensor.cpu_temperature') }}°F!"

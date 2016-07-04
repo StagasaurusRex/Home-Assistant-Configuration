@@ -1,0 +1,6 @@
+name: Living Room - Concentrate
+entities:
+  group.living_room_lights:
+    state: on
+    xy_color: [ 0.3693, 0.3695 ]
+    brightness: 255

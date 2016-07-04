@@ -1,0 +1,6 @@
+name: Home
+latitude: !secret latitude
+longitude: !secret longitude
+temperature_unit: F
+time_zone: !secret time_zone
+customize: !include customize.yaml

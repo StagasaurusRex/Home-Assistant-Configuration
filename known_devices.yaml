@@ -1,0 +1,21 @@
+
+9233274870664f1eb7fdae8ac3756884:
+  name: Will's iPhone
+  mac: !secret wills_mac
+  picture: 
+  track: yes
+  hide_if_away: no
+
+7ec950f9d4f84cac94c0eddb9de85823:
+  name: Robin's iPhone
+  mac: !secret robins_mac
+  picture: 
+  track: yes
+  hide_if_away: no
+
+2fca3e09d69842a88d1147d6d010e99e:
+  name: Rod's iPhone
+  mac: !secret rods_mac
+  picture: 
+  track: yes
+  hide_if_away: no

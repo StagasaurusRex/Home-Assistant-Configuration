@@ -1,0 +1,18 @@
+alias: 'Turn off bedroom tv if no ones home'
+trigger:
+  platform: state
+  entity_id: group.all_mobile_devices
+  to: 'not_home'
+condition:
+- condition: state
+  entity_id: device_tracker.will
+  state: 'not_home'
+- condition: state
+  entity_id: device_tracker.robin
+  state: 'not_home'
+- condition: state
+  entity_id: device_tracker.rod
+  state: 'not_home'
+action:
+  service: media_player.turn_off
+  entity_id: media_player.master_bedroom_tv

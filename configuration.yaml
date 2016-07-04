@@ -1,0 +1,54 @@
+############################
+## General Configurations ##
+############################
+
+homeassistant: !include homeassistant.yaml
+
+http: !include http.yaml
+
+logbook:
+#discovery:
+updater:
+conversation:
+frontend:
+sun:
+history:
+group: !include group.yaml
+automation: !include_dir_list automation
+script: !include_dir_list scripts
+scene: !include_dir_list scenes
+
+##############
+## Software ##
+##############
+
+sensor: !include sensors.yaml
+
+device_tracker: !include device_tracker.yaml
+
+ifttt:
+  key: !secret ifttt
+
+notify: !include notify.yaml
+
+media_player: !include media_player.yaml
+
+device_sun_light_trigger:
+  light_group: group.living_room_lights
+  device_group: group.all_mobile_devices
+  disable_turn_off: 0
+
+##############
+## Hardware ##
+##############
+
+light:
+  platform: hue
+  host: 10.0.1.67
+  allow_unreachable: true
+
+
+ecobee:
+  api_key: !secret ecobee
+  hold_temp: false
+

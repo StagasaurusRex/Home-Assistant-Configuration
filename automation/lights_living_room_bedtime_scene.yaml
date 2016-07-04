@@ -1,0 +1,7 @@
+alias: 'Turn on living room bedtime scene @ 11pm'
+trigger:
+  platform: time
+  after: '23:00:00'
+action:
+  service: scene.turn_on
+  entity_id: scene.living_room_bedtime

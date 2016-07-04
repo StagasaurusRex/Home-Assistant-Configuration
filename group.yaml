@@ -1,0 +1,95 @@
+################
+## Group.yaml ##
+################
+
+###########
+## Views ##
+###########
+
+default_view:
+  view: yes
+  entities:
+    - group.living_room_lights
+    - group.living_room_scenes
+    - group.all_mobile_devices
+
+Data:
+  view: yes
+  entities:
+    - group.thermostat
+    - group.raspberry_pi
+    - group.room_occupancy
+    - group.weather
+    - group.living_room
+
+Media:
+  view: yes
+  entities:
+    - group.media_players
+
+############
+## Groups ##
+############
+
+all mobile devices: 
+ - device_tracker.7ec950f9d4f84cac94c0eddb9de85823
+ - device_tracker.2fca3e09d69842a88d1147d6d010e99e
+ - device_tracker.9233274870664f1eb7fdae8ac3756884
+
+living room lights:
+  - light.knitting
+  - light.moose
+  - light.tiffany
+
+living room:
+  - group.living_room_lights
+
+raspberry pi:
+  - sensor.cpu
+  - sensor.cpu_temperature
+  - sensor.free_memory
+
+room occupancy:
+  - sensor.dining_room_occupancy
+  - sensor.office_occupancy
+
+Thermostat:
+  - thermostat.dining_room
+  - sensor.office_temperature
+  - sensor.dining_room_humidity
+
+Weather:
+ - sun.sun
+ - sensor.weather_summary
+ - sensor.weather_temperature
+ - sensor.weather_apparent_temperature
+ - sensor.weather_precip
+ - sensor.weather_precip_probability
+ - sensor.weather_precip_intensity
+ - sensor.weather_humidity
+ - sensor.weather_visibility
+ - sensor.weather_wind_speed
+ - sensor.weather_cloud_coverage
+ - sensor.weather_daily_summary
+ - sensor.weather_hourly_summary
+ - sensor.weather_minutely_summary
+ - sensor.weather_dew_point
+ - sensor.weather_icon
+ - sensor.weather_nearest_storm_bearing
+ - sensor.weather_nearest_storm_distance
+ - sensor.weather_ozone
+ - sensor.weather_pressure
+ - sensor.weather_wind_bearing
+
+presence:
+ - group.all_mobile_devices
+ - group.room_occupancy
+
+Living Room Scenes:
+  - scene.living_room__concentrate
+  - scene.living_room__relax
+  - scene.living_room__bedtime
+
+media_players:
+  - media_player.master_bedroom_tv
+  - media_player.roku_1gn399033913

@@ -1,0 +1,38 @@
+- platform: time_date
+  display_options: 
+    - 'time'
+- platform: cpuspeed
+  name: CPU
+- platform: command_line
+  name: Free Memory
+  command: "head -n '3' '/proc/meminfo' | tail -n 1 | awk 'NR==1{print $2}'"
+  unit_of_measurement: "MB"
+  value_template: '{{ value | multiply(0.0009765625) | round(0) }}'
+- platform: command_line
+  name: CPU Temperature
+  command: "cat /sys/class/thermal/thermal_zone0/temp"
+  unit_of_measurement: "°C"
+  value_template: '{{ value | multiply(0.001) | round(0) }}'
+- platform: forecast
+  api_key: !secret forecast_io
+  monitored_conditions:
+    - summary
+    - icon
+    - nearest_storm_distance
+    - nearest_storm_bearing
+    - precip_type
+    - precip_intensity
+    - precip_probability
+    - temperature
+    - apparent_temperature
+    - dew_point
+    - wind_speed
+    - wind_bearing
+    - cloud_cover
+    - humidity
+    - pressure
+    - visibility
+    - ozone
+    - minutely_summary
+    - hourly_summary
+    - daily_summary

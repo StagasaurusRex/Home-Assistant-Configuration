@@ -1,0 +1,9 @@
+alias: 'Pushbullet notificationswhen memory usage gets above 80%'
+trigger:
+  platform: numeric_state
+  entity_id: sensor.free_memory
+  below: 205
+action:
+  service: notify.notify
+  data:
+    message: "Free memory is {{ states('sensor.free_memory') | round(0) }}MB!"

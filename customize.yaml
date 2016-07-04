@@ -1,0 +1,88 @@
+####################
+## Customize.yaml ##
+####################
+
+sensor.weather_daily_summary:
+  hidden: true
+sensor.weather_dew_point:
+  hidden: true
+sensor.weather_hourly_summary:
+  hidden: true
+sensor.weather_icon:
+  hidden: true
+sensor.weather_minutely_summary:
+  hidden: true
+sensor.weather_nearest_storm_bearing:
+  hidden: true
+sensor.weather_nearest_storm_distance:
+  hidden: true
+sensor.weather_ozone:
+  hidden: true
+sensor.weather_pressure:
+  hidden: true
+sensor.weather_wind_bearing:
+  hidden: true
+
+sensor.time:
+  hidden: true
+
+sensor.living_room_temperature:
+  hidden: true
+sensor.dining_room_temperature:
+  hidden: true
+
+sensor.weather_apparent_temperature:
+  friendly_name: Feels like
+  icon: mdi:thermometer-lines
+sensor.weather_temperature:
+  friendly_name: Outside Temperature
+sensor.weather_precip_probability:
+  friendly_name: Chance of Precipitation
+  icon: mdi:water-percent
+sensor.weather_precip:
+  friendly_name: Precipitation Type
+  icon: mdi:weather-rainy
+sensor.weather_precip_intensity:
+  friendly_name: Precipitation Intensity
+  icon: mdi:cup-water
+sensor.dining_room_humidity:
+  friendly_name: Indoor Humidity
+  icon: mdi:opacity
+sensor.weather_humidity:
+  friendly_name: Humidity
+  icon: mdi:opacity
+sensor.weather_cloud_coverage:
+  friendly_name: Cloud Coveragea
+  icon: mdi:weather-cloudy
+sensor.weather_wind_speed:
+  friendly_name: Wind Speed
+  icon: mdi:weather-windy
+sensor.weather_visibility:
+  friendly_name: Visibility
+  icon: mdi:weather-fog
+sensor.weather_summary:
+  icon: mdi:weather-partlycloudy
+
+device_tracker.9233274870664f1eb7fdae8ac3756884:
+  friendly_name: Will
+  entity_picture: /local/photos/will.jpeg
+device_tracker.7ec950f9d4f84cac94c0eddb9de85823:
+  friendly_name: Robin
+  entity_picture: /local/photos/robin.jpeg
+device_tracker.2fca3e09d69842a88d1147d6d010e99e:
+  friendly_name: Rod
+  entity_picture: /local/photos/rod.jpeg
+
+media_player.roku_1gn399033913:
+  friendly_name: Roku
+
+group.all_mobile_devices:
+  friendly_name: Mobile Phones
+group.all_lights:
+  hidden: true
+group.raspberry_pi:
+  friendly_name: Raspberry Pi
+group.presence:
+  hidden: true
+group.living_room:
+  hidden: true
