@@ -97,3 +97,4 @@ media_players:
 
 booleans:
   - input_boolean.movie_mode
+  - input_boolean.vacation
