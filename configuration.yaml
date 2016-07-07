@@ -44,10 +44,10 @@ device_sun_light_trigger:
 ##############
 
 light:
-  platform: hue
+- platform: hue
   host: 10.0.1.67
   allow_unreachable: true
-
+- platform: lifx
 
 ecobee:
   api_key: !secret ecobee
