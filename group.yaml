@@ -72,6 +72,17 @@ Weather:
   - sensor.weather_wind_speed
   - sensor.weather_cloud_coverage
 
+3 Hour Forecast:
+  - sensor.weather_condition
+  - sensor.weather_temperature_2
+  - sensor.weather_forecast
+  - sensor.weather_humidity_2
+  - sensor.weather_pressure_2
+  - sensor.weather_wind_speed_2
+  - sensor.weather_cloud_coverage_2
+  - sensor.weather_rain
+  - sensor.weather_snow
+
 Other Weather:
   - sensor.weather_daily_summary
   - sensor.weather_hourly_summary

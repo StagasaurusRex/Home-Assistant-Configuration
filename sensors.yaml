@@ -36,3 +36,15 @@
     - minutely_summary
     - hourly_summary
     - daily_summary
+- platform: openweathermap
+  api_key: !secret openweathermap
+  forecast: 1
+  monitored_conditions:
+    - weather
+    - temperature
+    - wind_speed
+    - humidity
+    - pressure
+    - clouds
+    - rain
+    - snow
