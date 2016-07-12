@@ -53,3 +53,7 @@ ecobee:
   api_key: !secret ecobee
   hold_temp: false
 
+zwave:
+  usb_path: /dev/ttyACM1
+#  config_path: /usr/local/lib/python3.4/dist-packages/libopenzwave-0.3.0b8-py3.4-linux-x86_64.egg/config
+  polling_interval: 30000
