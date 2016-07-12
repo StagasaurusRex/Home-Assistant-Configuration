@@ -1,6 +1,6 @@
 name: Living Room - Relax
 entities:
-  group.living_room_lights:
+  group.all_lights:
     state: on
     xy_color: [ 0.5134, 0.4149 ]
     brightness: 187

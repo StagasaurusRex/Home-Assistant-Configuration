@@ -1,6 +1,6 @@
 name: Living Room - Bedtime
 entities:
-  group.living_room_lights:
+  group.all_lights:
     state: on
     xy_color: [ 0.6736, 0.3221 ]
     brightness: 144
