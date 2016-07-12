@@ -4,4 +4,4 @@ trigger:
   after: '00:00:00'
 action:
   service: light.turn_off
-  entity_id: group.living_room_lights
+  entity_id: group.all_lights

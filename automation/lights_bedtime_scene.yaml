@@ -4,4 +4,4 @@ trigger:
   after: '23:00:00'
 action:
   service: scene.turn_on
-  entity_id: scene.living_room_bedtime
+  entity_id: scene.bedtime
