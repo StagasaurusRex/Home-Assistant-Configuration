@@ -41,10 +41,24 @@ living room lights:
   - light.knitting
   - light.moose
   - light.tiffany
+  - light.fireplace
 
 living room:
   - group.living_room_lights
 
+kitchen lights:
+  - light.dishwasher
+  - light.fridge
+  - light.map
+  - light.stove
+
+Kitchen:
+  - group.kitchen_lights
+
+Entry lights:
+  - light.entry
+  - light.entry_closet
+      
 raspberry pi:
   - sensor.cpu
   - sensor.cpu_temperature
