@@ -1,4 +1,4 @@
-alias: 'Turn on living room bedtime scene @ 11pm'
+alias: 'Turn on bedtime scene @ 11pm'
 trigger:
   platform: time
   after: '23:00:00'
