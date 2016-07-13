@@ -1,0 +1,18 @@
+alias: 'Turn off all lights if no ones home'
+trigger:
+  platform: state
+  entity_id: group.all_mobile_devices
+  to: 'not_home'
+condition:
+- condition: state
+  entity_id: device_tracker.9233274870664f1eb7fdae8ac3756884 #Will
+  state: 'not_home'
+- condition: state
+  entity_id: device_tracker.7ec950f9d4f84cac94c0eddb9de85823 #Robin
+  state: 'not_home'
+- condition: state
+  entity_id: device_tracker.2fca3e09d69842a88d1147d6d010e99e # Rod
+  state: 'not_home'
+action:
+  service: light.turn_off
+  entity_id: group.all_lights
