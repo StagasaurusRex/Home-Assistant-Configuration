@@ -125,3 +125,18 @@ media_players:
 modes:
   - input_boolean.movie_mode
   - input_boolean.vacation
+
+lifx lights:
+  - light.dishwasher
+  - light.entry
+  - light.entry_closet
+  - light.fireplace
+  - light.fridge
+  - light.map
+  - light.stove
+
+hue lights:
+  - light.moose
+  - light.tiffany
+  - light.knitting
+
