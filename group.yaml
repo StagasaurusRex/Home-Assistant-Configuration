@@ -13,6 +13,8 @@ Controls:
     - group.living_room_scenes
     - group.all_mobile_devices
     - group.modes
+    - group.kitchen_lights
+    - group.entry_lights
 
 Data:
   view: yes
