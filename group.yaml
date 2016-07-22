@@ -9,9 +9,9 @@
 Controls:
   view: yes
   entities:
+    - group.lights
     - group.living_room_lights
     - group.living_room_scenes
-    - group.all_mobile_devices
     - group.modes
     - group.kitchen_lights
     - group.entry_lights
@@ -19,11 +19,16 @@ Controls:
 Data:
   view: yes
   entities:
+    - group.all_mobile_devices
     - group.thermostat
     - group.raspberry_pi
     - group.room_occupancy
     - group.weather
     - group.living_room
+
+Weather:
+  view: yes
+
 
 Media:
   view: yes
@@ -39,11 +44,22 @@ all mobile devices:
  - device_tracker.2fca3e09d69842a88d1147d6d010e99e
  - device_tracker.9233274870664f1eb7fdae8ac3756884
 
-living room lights:
+lights:
+ - group.living_room_lights
+ - group.kitchen_lights
+ - group.entry_lights
+
+living_room_lights_lifx:
+  - light.fireplace
+
+living_room_lights_hue:
   - light.knitting
   - light.moose
   - light.tiffany
-  - light.fireplace
+
+living room lights:
+  - group.living_room_lights_hue
+  - group.living_room_lights_lifx
 
 living room:
   - group.living_room_lights
@@ -75,7 +91,7 @@ Thermostat:
   - sensor.office_temperature
   - sensor.dining_room_humidity
 
-Weather:
+Forecast io Weather:
   - sun.sun
   - sensor.weather_summary
   - sensor.weather_temperature
@@ -115,11 +131,6 @@ presence:
  - group.all_mobile_devices
  - group.room_occupancy
 
-Living Room Scenes:
-  - scene.living_room__concentrate
-  - scene.living_room__relax
-  - scene.living_room__bedtime
-
 media_players:
   - media_player.master_bedroom_tv
   - media_player.roku_1gn399033913
@@ -141,4 +152,3 @@ hue lights:
   - light.moose
   - light.tiffany
   - light.knitting
-
