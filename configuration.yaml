@@ -34,11 +34,6 @@ notify: !include notify.yaml
 
 media_player: !include media_player.yaml
 
-device_sun_light_trigger:
-  light_group: group.living_room_lights
-  device_group: group.all_mobile_devices
-  disable_turn_off: 0
-
 ##############
 ## Hardware ##
 ##############
