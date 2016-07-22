@@ -1,6 +1,12 @@
-name: Living Room - Bedtime
+name: bedtime
 entities:
-  group.all_lights:
+  group.entry_lights:
+    state: off
+  group.kitchen_lights:
+    state: off
+  light.fireplace:
+    state: off
+  group.living_room_lights_hue:
     state: on
-    xy_color: [ 0.6736, 0.3221 ]
+    rgb_color: [ 253, 178, 75 ]
     brightness: 144

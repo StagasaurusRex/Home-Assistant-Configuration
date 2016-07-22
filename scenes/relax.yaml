@@ -1,6 +1,11 @@
-name: Living Room - Relax
+name: relax
 entities:
-  group.all_lights:
+  group.hue_lights:
     state: on
-    xy_color: [ 0.5134, 0.4149 ]
-    brightness: 187
+    rgb_color: [ 253, 178, 75 ]
+    brightness: 144
+  group.lifx_lights:
+    state: on
+    rgb_color: [ 80, 80 , 80 ]
+    brightness: 80
+    color_temp: 154

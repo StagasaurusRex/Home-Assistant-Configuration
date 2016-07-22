@@ -1,6 +1,21 @@
-name: Living Room - Concentrate
+name: concentrate
 entities:
-  group.all_lights:
+  group.hue_lights:
     state: on
-    xy_color: [ 0.3693, 0.3695 ]
+    rgb_color: [ 255, 230, 192 ]
+    brightness: 255
+  light.fireplace:
+    state: on
+    rgb_color: [ 202, 202, 202 ]
+    color_temp: 366
+    brightness: 203
+  group.kitchen_lights:
+    state: on
+    rgb_color: [ 202, 202, 202 ]
+    color_temp: 366
+    brightness: 255
+  group.entry_lights:
+    state: on
+    rgb_color: [ 202, 202, 202 ]
+    color_temp: 366
     brightness: 255
