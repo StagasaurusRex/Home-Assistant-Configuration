@@ -42,16 +42,6 @@ sensor.weather_visibility:
 sensor.weather_summary:
   icon: mdi:weather-partlycloudy
 
-device_tracker.9233274870664f1eb7fdae8ac3756884:
-  friendly_name: Will
-  entity_picture: /local/photos/will.jpeg
-device_tracker.7ec950f9d4f84cac94c0eddb9de85823:
-  friendly_name: Robin
-  entity_picture: /local/photos/robin.jpeg
-device_tracker.2fca3e09d69842a88d1147d6d010e99e:
-  friendly_name: Rod
-  entity_picture: /local/photos/rod.jpeg
-
 media_player.roku_1gn399033913:
   friendly_name: Roku
 

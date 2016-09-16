@@ -1,20 +1,20 @@
-9233274870664f1eb7fdae8ac3756884:
-  name: Will's iPhone
-  mac: !secret wills_mac
-  picture: 
-  track: yes
-  hide_if_away: no
-
 7ec950f9d4f84cac94c0eddb9de85823:
-  name: Robin's iPhone
+  name: Robin
   mac: !secret robins_mac
-  picture: 
+  picture: /local/photos/robin.jpeg
   track: yes
   hide_if_away: no
 
 2fca3e09d69842a88d1147d6d010e99e:
-  name: Rod's iPhone
+  name: Rod
   mac: !secret rods_mac
-  picture: 
+  picture: /local/photos/rod.jpeg
+  track: yes
+  hide_if_away: no
+
+78c4d0aecb06465dad4fbe1869e0d54d:
+  name: Will
+  mac: !secret wills_mac
+  picture: /local/photos/will.jpeg
   track: yes
   hide_if_away: no
