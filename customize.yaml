@@ -31,7 +31,7 @@ sensor.weather_humidity:
   friendly_name: Humidity
   icon: mdi:opacity
 sensor.weather_cloud_coverage:
-  friendly_name: Cloud Coveragea
+  friendly_name: Cloud Coverage
   icon: mdi:weather-cloudy
 sensor.weather_wind_speed:
   friendly_name: Wind Speed
