@@ -1,4 +1,4 @@
-name: relax
+name: relaxation
 entities:
   group.hue_lights:
     state: on

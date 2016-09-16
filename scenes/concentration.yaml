@@ -1,4 +1,4 @@
-name: concentrate
+name: concentration
 entities:
   group.hue_lights:
     state: on
