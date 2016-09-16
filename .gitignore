@@ -1,3 +1,7 @@
 secrets.yaml
 
 multi.py
+
+.DS_Store
+
+*.jpeg
