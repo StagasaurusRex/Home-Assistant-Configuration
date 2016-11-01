@@ -2,6 +2,6 @@ name: Home
 latitude: !secret latitude
 longitude: !secret longitude
 elevation: 288
-unit_system: metric
+unit_system: imperial
 time_zone: !secret time_zone
 customize: !include customize.yaml
