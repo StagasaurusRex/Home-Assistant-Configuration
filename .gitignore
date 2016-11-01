@@ -5,3 +5,5 @@ multi.py
 .DS_Store
 
 *.jpeg
+
+*.db
