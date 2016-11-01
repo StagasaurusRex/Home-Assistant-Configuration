@@ -12,9 +12,10 @@
   track: yes
   hide_if_away: no
 
-78c4d0aecb06465dad4fbe1869e0d54d:
+2c33614bbb27:
   name: Will
   mac: !secret wills_mac
   picture: /local/photos/will.jpeg
   track: yes
   hide_if_away: no
+
