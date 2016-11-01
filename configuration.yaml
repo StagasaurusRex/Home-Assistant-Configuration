@@ -9,7 +9,6 @@ http: !include http.yaml
 logbook:
 #discovery:
 updater:
-conversation:
 frontend:
 sun:
 history:
