@@ -50,7 +50,7 @@ ecobee:
 emulated_hue:
   host_ip: 10.0.1.66
 
-alexa: !include alexa.yaml
+#alexa: !include alexa.yaml
 
 #zwave:
 #  usb_path: /dev/ttyACM1
