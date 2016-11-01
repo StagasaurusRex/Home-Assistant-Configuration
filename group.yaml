@@ -42,7 +42,7 @@ Media:
 all mobile devices: 
  - device_tracker.7ec950f9d4f84cac94c0eddb9de85823
  - device_tracker.2fca3e09d69842a88d1147d6d010e99e
- - device_tracker.78c4d0aecb06465dad4fbe1869e0d54d
+ - device_tracker.2c33614bbb27
 
 lights:
  - group.living_room_lights
