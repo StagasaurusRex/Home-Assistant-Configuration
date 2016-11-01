@@ -5,6 +5,9 @@
 sensor.time:
   hidden: true
 
+sun.sun:
+  hidden: true
+
 media_player.roku_1gn399033913:
   friendly_name: Roku
 
