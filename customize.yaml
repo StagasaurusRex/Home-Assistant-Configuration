@@ -5,21 +5,8 @@
 sensor.time:
   hidden: true
 
-sensor.living_room_temperature:
-  hidden: true
-sensor.dining_room_temperature:
-  hidden: true
-
 media_player.roku_1gn399033913:
   friendly_name: Roku
 
 group.all_mobile_devices:
   friendly_name: Mobile Phones
-group.all_lights:
-  hidden: true
-group.raspberry_pi:
-  friendly_name: Raspberry Pi
-group.presence:
-  hidden: true
-group.living_room:
-  hidden: true
