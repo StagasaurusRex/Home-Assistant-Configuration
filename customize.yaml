@@ -10,38 +10,6 @@ sensor.living_room_temperature:
 sensor.dining_room_temperature:
   hidden: true
 
-sensor.weather_apparent_temperature:
-  friendly_name: Feels like
-  icon: mdi:thermometer-lines
-sensor.weather_temperature:
-  friendly_name: Outside Temperature
-sensor.weather_precip_probability:
-  friendly_name: Chance of Precipitation
-  icon: mdi:water-percent
-sensor.weather_precip:
-  friendly_name: Precipitation Type
-  icon: mdi:weather-rainy
-sensor.weather_precip_intensity:
-  friendly_name: Precipitation Intensity
-  icon: mdi:cup-water
-sensor.dining_room_humidity:
-  friendly_name: Indoor Humidity
-  icon: mdi:opacity
-sensor.weather_humidity:
-  friendly_name: Humidity
-  icon: mdi:opacity
-sensor.weather_cloud_coverage:
-  friendly_name: Cloud Coverage
-  icon: mdi:weather-cloudy
-sensor.weather_wind_speed:
-  friendly_name: Wind Speed
-  icon: mdi:weather-windy
-sensor.weather_visibility:
-  friendly_name: Visibility
-  icon: mdi:weather-fog
-sensor.weather_summary:
-  icon: mdi:weather-partlycloudy
-
 media_player.roku_1gn399033913:
   friendly_name: Roku
 
