@@ -7,3 +7,9 @@ multi.py
 *.jpeg
 
 *.db
+.HA_VERSION
+.uuid
+deps/
+ecobee.conf
+home-assistant.log
+phue.conf
