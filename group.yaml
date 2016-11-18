@@ -49,7 +49,7 @@ lights:
  - group.kitchen_lights
  - group.entry_lights
 
- all my lights:
+all my lights:
  - group.lights
 
 living room lights lifx:
@@ -122,6 +122,6 @@ hue lights:
   - light.moose
   - light.tiffany
   - light.knitting
-  
+
 my hue lights:
   - group.hue_lights
