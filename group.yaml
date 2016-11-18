@@ -49,10 +49,13 @@ lights:
  - group.kitchen_lights
  - group.entry_lights
 
-living_room_lights_lifx:
+ all my lights:
+ - group.lights
+
+living room lights lifx:
   - light.fireplace
 
-living_room_lights_hue:
+living room lights hue:
   - light.knitting
   - light.moose
   - light.tiffany
@@ -95,7 +98,7 @@ presence:
  - group.all_mobile_devices
  - group.room_occupancy
 
-media_players:
+media players:
   - media_player.master_bedroom_tv
   - media_player.roku_1gn399033913
 
@@ -112,7 +115,13 @@ lifx lights:
   - light.map
   - light.stove
 
+my lifx lights:
+  - group.lifx_lights
+
 hue lights:
   - light.moose
   - light.tiffany
   - light.knitting
+  
+my hue lights:
+  - group.hue_lights
