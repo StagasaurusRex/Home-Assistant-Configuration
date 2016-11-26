@@ -3,9 +3,14 @@ trigger:
   platform: time
   after: "08:00:00"
 condition:
-  condition: state
-  entity_id: group.all_mobile_devices
-  state: 'home'
+  condition: or
+  conditions:
+  - condition: state
+    entity_id: group.all_mobile_devices
+    state: 'home'
+  - condition: state
+    entity_id: input_boolean.vacation
+    state: 'on'
 action:
   service: scene.turn_on
   entity_id: scene.relax
