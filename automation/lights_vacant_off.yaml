@@ -13,6 +13,9 @@ condition:
 - condition: state
   entity_id: device_tracker.2fca3e09d69842a88d1147d6d010e99e # Rod
   state: 'not_home'
+- condition: state
+  entity_id: input_boolean.vacation
+  state: 'off'  
 action:
   service: light.turn_off
   entity_id: group.all_lights
