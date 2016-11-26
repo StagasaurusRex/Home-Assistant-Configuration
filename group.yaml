@@ -23,8 +23,6 @@ Data:
     - group.thermostat
     - group.raspberry_pi
     - group.room_occupancy
-    - group.weather
-    - group.living_room
 
 Weather:
   view: yes
