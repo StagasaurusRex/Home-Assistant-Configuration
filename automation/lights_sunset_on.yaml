@@ -11,7 +11,7 @@ condition:
     state: 'home'
   - condition: state
     entity_id: input_boolean.vacation
-    state: on  
+    state: 'on'  
 action:
   service: scene.turn_on
   entity_id: scene.concentrate
