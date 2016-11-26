@@ -93,6 +93,7 @@ Thermostat:
   - thermostat.dining_room
   - sensor.office_temperature
   - sensor.dining_room_humidity
+  - sensor.dining_room_temperature
 
 presence:
  - group.all_mobile_devices
