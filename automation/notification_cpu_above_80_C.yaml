@@ -1,4 +1,5 @@
 alias: 'Pushbullet notifications when CPU temp gets above 80 degrees C/ 176 degrees F'
+hide_entity: true
 trigger: 
   platform: numeric_state
   entity_id: sensor.cpu_temperature

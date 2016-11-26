@@ -1,4 +1,5 @@
 alias: 'Pushbullet notificationswhen memory usage gets above 80%'
+hide_entity: true
 trigger:
   platform: numeric_state
   entity_id: sensor.free_memory
