@@ -13,3 +13,6 @@ media_player.roku_1gn399033913:
 
 group.all_mobile_devices:
   friendly_name: Mobile Phones
+
+group.all_my_lights:
+  hidden: true
