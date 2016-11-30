@@ -19,3 +19,10 @@
   track: yes
   hide_if_away: no
 
+
+1a6ab810cf3d45608ad16b2f761b5043:
+  hide_if_away: false
+  mac: null
+  name: 1a6ab810cf3d45608ad16b2f761b5043
+  picture: null
+  track: true
