@@ -68,19 +68,30 @@ living room lights:
 living room:
   - group.living_room_lights
 
-kitchen lights:
+kitchen lights lifx:
   - light.dishwasher
   - light.fridge
   - light.map
   - light.stove
 
-Kitchen:
+kitchen lights:
+  - light.lights_lifx
+
+kitchen:
   - group.kitchen_lights
 
-Entry lights:
+entry lights lifx:
   - light.entry
   - light.entry_closet
-      
+
+entry lights:
+  - light.entry_lights_lifx
+
+entry:
+  - light.entry
+entryway:
+  - light.entry  
+
 raspberry pi:
   - sensor.cpu
   - sensor.cpu_temperature

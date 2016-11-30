@@ -19,3 +19,9 @@ group.all_my_lights:
 
 group.my_lights:
   hidden: true
+
+group.living_room_lights_lifx:
+  hidden: true
+
+group.living_room_lights_hue:
+  hidden: true
