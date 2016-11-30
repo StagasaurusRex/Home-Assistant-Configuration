@@ -38,9 +38,9 @@ Media:
 ############
 
 all mobile devices: 
- - device_tracker.7ec950f9d4f84cac94c0eddb9de85823
- - device_tracker.2fca3e09d69842a88d1147d6d010e99e
- - device_tracker.2c33614bbb27
+ - device_tracker.will
+ - device_tracker.rod
+ - device_tracker.robin
 
 lights:
  - group.living_room_lights
