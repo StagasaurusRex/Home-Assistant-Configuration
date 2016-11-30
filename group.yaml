@@ -50,6 +50,9 @@ lights:
 all my lights:
  - group.lights
 
+my lights:
+ - group.lights
+
 living room lights lifx:
   - light.fireplace
 

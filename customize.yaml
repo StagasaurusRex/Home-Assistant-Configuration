@@ -16,3 +16,6 @@ group.all_mobile_devices:
 
 group.all_my_lights:
   hidden: true
+
+group.my_lights:
+  hidden: true
